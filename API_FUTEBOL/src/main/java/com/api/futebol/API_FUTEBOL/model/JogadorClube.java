@@ -8,13 +8,6 @@ import java.math.BigInteger;
 @Entity
 @Table(name="jogador_clube")
 
-/*    "id" serial NOT NULL UNIQUE,
-    "jogador_id" bigint NOT NULL,
-    "clube_id" bigint NOT NULL,
-    "numero_camisa" bigint NOT NULL,
-    PRIMARY KEY ("id")
-*/
-
 public class JogadorClube {
 
     @Id

@@ -7,23 +7,13 @@ import java.math.BigInteger;
 @Entity
 @Table(name="estatistica")
 public class Estatistica {
-    /*CREATE TABLE IF NOT EXISTS "Estatistica" (
-    "id" serial NOT NULL UNIQUE,
-    "jogador_id" bigint NOT NULL,
-    "jogos" bigint NOT NULL,
-    "gols" bigint NOT NULL,
-    "assistencias" bigint NOT NULL,
-    "cartoes_amarelo" bigint NOT NULL,
-    "cartoes_vermelho" bigint NOT NULL,
-    PRIMARY KEY ("id")
-    */
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private Integer id;
 
-    @Column(name = "jogadoId", unique = true)
+    @Column(name = "jogadorId", unique = true)
     private BigInteger jogador_id;
 
     @Column(name="jogos", nullable = false)

@@ -5,6 +5,7 @@ import java.time.LocalDateTime;
 
 //DEFININDO COMO ENTIDADE DO BANCO
 @Entity
+@Table(name="jogador")
 public class Jogador {
 
     //ID = PRIMARY KEY

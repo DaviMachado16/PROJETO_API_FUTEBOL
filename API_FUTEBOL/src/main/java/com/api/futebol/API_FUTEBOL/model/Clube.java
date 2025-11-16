@@ -4,7 +4,6 @@ import jakarta.persistence.*;
 
 @Entity
 @Table(name="clube")
-
 public class Clube {
 
     @Id

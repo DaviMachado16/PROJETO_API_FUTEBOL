@@ -3,13 +3,11 @@ import jakarta.persistence.*;
 
 import java.time.LocalDateTime;
 
-//DEFININDO COMO ENTIDADE DO BANCO
+
 @Entity
 @Table(name="jogador")
 public class Jogador {
 
-    //ID = PRIMARY KEY
-    //GENERATED VALUE = GERAR ID AUTOMÁTICO
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY )
     @Column(name= "id")

@@ -7,7 +7,6 @@ import java.math.BigInteger;
 
 @Entity
 @Table(name="jogador_clube")
-
 public class JogadorClube {
 
     @Id
